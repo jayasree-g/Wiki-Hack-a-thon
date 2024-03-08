@@ -1,0 +1,1630 @@
+{
+  "intents": [
+    {
+      "tag": "edit_page",
+      "patterns": [
+        "How to edit?",
+        "How do I edit a page?",
+        "Edit page instructions",
+        "Editing a Wikipedia page"
+      ],
+      "responses": [
+        "To edit the whole page, click the 'edit' tab at the top. To edit just one section, click the 'edit' link to the right of the section heading."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "browser_problems",
+      "patterns": [
+        "I have problems editing with my browser!",
+        "Browser issues while editing",
+        "Editing troubles with browser"
+      ],
+      "responses": [
+        "For browser-related editing issues, refer to Wikipedia:Browser notes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "make_links",
+      "patterns": [
+        "How do I make links?",
+        "Creating links on Wikipedia",
+        "Linking to pages"
+      ],
+      "responses": [
+        "Use double square brackets: [[page name]]. To link to a page with different displayed text, use [[page name|text]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "insert_new_line",
+      "patterns": [
+        "How do I insert a new line?",
+        "Creating new lines on Wikipedia",
+        "Line break in Wikipedia editing"
+      ],
+      "responses": [
+        "Press the Enter key twice for a new paragraph. To force a single new line, insert the HTML element <br /> after the line."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "rename_page",
+      "patterns": [
+        "How do I rename a page?",
+        "Renaming Wikipedia pages",
+        "Page renaming instructions"
+      ],
+      "responses": [
+        "Autoconfirmed users can move a page using the 'Move this page' tab. Follow Wikipedia:Deletion policy for more details on renaming."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "delete_page",
+      "patterns": [
+        "How do I delete a page?",
+        "Deleting a Wikipedia page",
+        "Page deletion instructions"
+      ],
+      "responses": [
+        "Refer to Wikipedia:Deletion policy for instructions on page deletions. Articles are typically nominated at Wikipedia:Articles for deletion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "edit_redirect_page",
+      "patterns": [
+        "How do I edit a redirect page?",
+        "Editing a Wikipedia redirect",
+        "Redirect page editing instructions"
+      ],
+      "responses": [
+        "Click on the link at the top of the page that says 'redirected from ...' to edit the redirected page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "edit_mobile_subtitles",
+      "patterns": [
+        "How do I edit mobile subtitles?",
+        "Editing mobile page subtitles",
+        "Mobile page subtitle editing instructions"
+      ],
+      "responses": [
+        "Mobile subtitles are edited by modifying the {{short description}} template. See Wikipedia:Short description for details."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ideal_article_length",
+      "patterns": [
+        "How long should the ideal article be?",
+        "Ideal article length",
+        "Article length guidelines"
+      ],
+      "responses": [
+        "A good rule of thumb is fewer than 5000 words, unless the subject requires more exposition."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "article_size",
+      "patterns": [
+        "How do I figure out how big an article is?",
+        "Article size determination",
+        "Checking article size"
+      ],
+      "responses": [
+        "Click 'Page information' under 'Tools' on the right of the page to see the byte size of an article."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "long_article_solution",
+      "patterns": [
+        "What do I do when an article is too long?",
+        "Article too lengthy",
+        "Handling long articles"
+      ],
+      "responses": [
+        "See Wikipedia:Summary style for guidance on summarizing lengthy articles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "revision_history",
+      "patterns": [
+        "How do I determine who made what changes to an article?",
+        "Checking article revision history",
+        "Viewing article edits"
+      ],
+      "responses": [
+        "Click the 'View History' tab to see the revision history of an article."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "add_images",
+      "patterns": [
+        "How can I add pictures to pages?",
+        "Adding images to Wikipedia",
+        "Image insertion instructions"
+      ],
+      "responses": [
+        "First, ensure you have the right to publish the picture under a compatible license. Then, use Wikipedia:File Upload Wizard to upload the image and include it in wiki pages using [[File:NameOfImage.png|thumb|A descriptive caption]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "delete_uploaded_items",
+      "patterns": [
+        "How can I delete uploaded items?",
+        "Deleting uploaded files",
+        "File deletion instructions"
+      ],
+      "responses": [
+        "Only Wikipedia:Administrators can delete uploads. If you want to nominate an uploaded image for deletion, see Wikipedia:Files for discussion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "image_description",
+      "patterns": [
+        "How do I describe images?",
+        "Image description on Wikipedia",
+        "Describing images"
+      ],
+      "responses": [
+        "Click on the image to get the description page. Also, when you upload the file, everything you put in the upload summary is placed into the image description page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "editing_tools",
+      "patterns": [
+        "Are there any tools to make editing easier/faster?",
+        "Editing tools on Wikipedia",
+        "Tools for editing"
+      ],
+      "responses": [
+        "See Wikipedia:Tools for a list of editing tools."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cite_sources",
+      "patterns": [
+        "How do I cite sources?",
+        "Citing sources on Wikipedia",
+        "Source citation instructions"
+      ],
+      "responses": [
+        "See Wikipedia:Referencing for beginners for guidance on citing sources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "page_views",
+      "patterns": [
+        "Is there any way to see how many people have viewed a particular page?",
+        "Checking page views",
+        "Viewing page visit statistics"
+      ],
+      "responses": [
+        "Click 'Page information' under 'Tools' on the right of the page to see how many people have viewed the page in the past 30 days."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "missing_content",
+      "patterns": [
+        "Why does part of an article not appear, although it's there in the edit screen?",
+        "Missing content in Wikipedia article",
+        "Article content discrepancy"
+      ],
+      "responses": [
+        "This is typically due to a mistake in the markup for citing sources. Look for an HTML tag without a matching closing tag, and add that closing tag in the appropriate place on the page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "markup_info",
+      "patterns": [
+        "Where can I find information on the markup used in editing, eg <br /> and <noinclude>?",
+        "Markup information on Wikipedia",
+        "Editing markup help"
+      ],
+      "responses": [
+        "See Wiki markup and Help:HTML in wikitext for details on editing markup."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blocked_user",
+      "patterns": [
+        "Why have I been blocked?",
+        "Understanding Wikipedia block",
+        "Block reason clarification"
+      ],
+      "responses": [
+        "Your edits were deemed disruptive by an administrator, or it may be due to an automatic block by the software. See Wikipedia:Autoblock for more information on automatic blocks."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "new_section",
+      "patterns": [
+        "How can I insert a new section in an article?",
+        "Adding new sections to Wikipedia articles",
+        "Section insertion instructions"
+      ],
+      "responses": [
+        "Create a new section manually by placing ='s around a heading, for example: ==Main heading== or ===Sub-heading==="
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "quotation_templates",
+      "patterns": [
+        "Where can I find the quotation templates?",
+        "Quotation templates on Wikipedia",
+        "Templates for quotes"
+      ],
+      "responses": [
+        "The big, blue quotation mark templates are {{Cquote}} and {{Rquote}}. Also see Category:Quotation templates."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor",
+      "patterns": [
+        "Is there a way to edit without having to deal with wikicode?",
+        "Editing without wikicode",
+        "Wikicode-free editing"
+      ],
+      "responses": [
+        "VisualEditor (VE) is a way to edit pages without needing to learn wikitext markup. See Help:VisualEditor for instructions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_intro",
+      "patterns": [
+        "What is VisualEditor?",
+        "Introduction to VisualEditor",
+        "Understanding VisualEditor"
+      ],
+      "responses": [
+        "VisualEditor is a What You See Is What You Get-style editor for Wikipedia. It provides a simpler editing interface compared to the Source editor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_comparison",
+      "patterns": [
+        "How does VisualEditor compare to the Source editor?",
+        "VisualEditor vs Source editor",
+        "Differences between VisualEditor and Source editor"
+      ],
+      "responses": [
+        "VisualEditor is simpler to use and works more like a word processor, while the Source editor allows direct editing of wiki markup text."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_tutorial",
+      "patterns": [
+        "Where can I find a tutorial for VisualEditor?",
+        "VisualEditor tutorial",
+        "Learning VisualEditor"
+      ],
+      "responses": [
+        "You can find a tutorial for VisualEditor in the VisualEditor user guide."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_enable",
+      "patterns": [
+        "How do I enable VisualEditor?",
+        "Enabling VisualEditor",
+        "Activating VisualEditor"
+      ],
+      "responses": [
+        "You can enable VisualEditor through the Editing tab of Preferences. Select 'Show me both editing tabs' for 'Editing mode' and ensure the 'Temporarily disable the visual editor while it is in beta' box is unchecked."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_limitations",
+      "patterns": [
+        "What are the limitations of VisualEditor?",
+        "VisualEditor drawbacks",
+        "Issues with VisualEditor"
+      ],
+      "responses": [
+        "VisualEditor is still in development and may have limitations and bugs, such as slower loading times and availability only for article pages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "visual_editor_feedback",
+      "patterns": [
+        "How can I provide feedback for VisualEditor?",
+        "Giving feedback for VisualEditor",
+        "Reporting issues with VisualEditor"
+      ],
+      "responses": [
+        "You can leave comments and suggestions at the Feedback page if you encounter any problems with VisualEditor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "open_visual_editor",
+      "patterns": [
+        "How do I open VisualEditor?",
+        "Accessing VisualEditor",
+        "Starting VisualEditor"
+      ],
+      "responses": [
+        "You can edit any page using VisualEditor by clicking on the 'Edit' tab at the top of the page, or by clicking the 'edit' link on any section of an article."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wiki_markup_intro",
+      "patterns": [
+        "What is wiki markup?",
+        "Introduction to wiki markup",
+        "Understanding wiki markup"
+      ],
+      "responses": [
+        "Wikipedia is formatted using its own language called wiki markup, also known as wikitext. It's a simple language to learn and allows for formatting and adding elements to Wikipedia pages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "editing_tools",
+      "patterns": [
+        "What are the editing tools on Wikipedia?",
+        "Types of editing tools on Wikipedia",
+        "Choosing editing tools on Wikipedia"
+      ],
+      "responses": [
+        "Wikipedia offers two editing tools: the Source Editor, which uses wiki markup, and VisualEditor, a WYSIWYG word processor-style interface. VisualEditor is simpler to use, but Source Editor is more effective for certain tasks and is required for editing Talk Pages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "edit_using_source_editor",
+      "patterns": [
+        "How do I edit using the Source Editor?",
+        "Using the Source Editor for editing",
+        "Editing with wiki markup"
+      ],
+      "responses": [
+        "To view and edit a page using wiki markup, click Edit or Edit source at the top of any page. This will allow you to type text using wiki markup to format the text and add elements like images and tables."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wiki_markup_rules",
+      "patterns": [
+        "Are there any rules for using wiki markup?",
+        "Understanding wiki markup rules",
+        "Rules for formatting with wiki markup"
+      ],
+      "responses": [
+        "Wiki markup may seem intimidating at first, but it only requires a few rules to understand and use effectively. These rules are listed under Help at the top of the Source Editor."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "formatting_intro",
+      "patterns": [
+        "How is formatting achieved on Wikipedia?",
+        "Formatting basics on Wikipedia",
+        "Understanding Wikipedia formatting"
+      ],
+      "responses": [
+        "Formatting on Wikipedia is achieved by placing symbols on either side of blocks of text. You can type the markup manually or use the toolbar at the top of the editing area."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "adding_headings",
+      "patterns": [
+        "How do I add headings and subheadings?",
+        "Adding titles to Wikipedia articles",
+        "Creating headings in Wikipedia"
+      ],
+      "responses": [
+        "Headings and subheadings can be added by clicking Advanced then Heading in the extra toolbar line. Selecting 'Level 2' formats text as a main heading, while 'Level 3' gives you a subheading for a Level 2 heading."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heading_creation_manual",
+      "patterns": [
+        "How do I create a heading manually?",
+        "Manual heading creation on Wikipedia",
+        "Creating headings without the toolbar"
+      ],
+      "responses": [
+        "To create a heading without using the toolbar, put text between = signs; the number of = signs on each side of the text indicates the level. For example, ==Heading== for Level 2 and ===Subheading=== for Level 3."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bold_italic_text",
+      "patterns": [
+        "How do I make text bold or italic?",
+        "Formatting text on Wikipedia",
+        "Using bold and italic on Wikipedia"
+      ],
+      "responses": [
+        "Text can be made bold or italic using the B and I buttons on the toolbar. Alternatively, you can put text between ' apostrophes; three on each side for bold and two on each side for italics."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bold_italic_guidance",
+      "patterns": [
+        "Where can I find guidance on using bold and italic text?",
+        "Guidelines for bold and italic formatting on Wikipedia",
+        "Using bold and italic appropriately on Wikipedia"
+      ],
+      "responses": [
+        "For detailed guidance on how and where to use bold and italic text, refer to the Manual of Style sections on bold and italic formatting."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikilinks_intro",
+      "patterns": [
+        "What are wikilinks?",
+        "Introduction to wikilinks on Wikipedia",
+        "Understanding wikilinks"
+      ],
+      "responses": [
+        "Wikilinks are key components of Wikipedia that connect pages to each other, tying the whole encyclopedia together. They should be added for the first mention of important or unfamiliar concepts in an article."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "adding_wikilinks",
+      "patterns": [
+        "How do I add wikilinks?",
+        "Adding links to Wikipedia articles",
+        "Creating wikilinks in Wikipedia"
+      ],
+      "responses": [
+        "Typically, wikilinks use square brackets, like [[target page]]. You can also insert them by clicking the Chain icon icon. To link to an article but display some other text for the link, use the pipe | divider (⇧ Shift+\\), like [[target page|display text]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "linking_to_section",
+      "patterns": [
+        "How do I link to a specific section of a page?",
+        "Linking to sections within Wikipedia articles",
+        "Creating section links in Wikipedia"
+      ],
+      "responses": [
+        "You can link to a specific section of a page using a hash #, like [[Target page#Target section|display text]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikilink_examples",
+      "patterns": [
+        "Can you provide examples of wikilinks?",
+        "Examples of wikilinks",
+        "Wikilink formatting examples"
+      ],
+      "responses": [
+        "Examples of wikilinks include [[link]], [[Android (operating system)]], and [[Earth#Chemical composition|Chemistry of the Earth]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "templates_usage",
+      "patterns": [
+        "How do I use templates?",
+        "Using templates in Wikipedia articles",
+        "Template formatting in Wikipedia"
+      ],
+      "responses": [
+        "Templates, designated by curly brackets like {{template name|parameters}}, allow frequently used elements to be included on multiple pages. For instance, to insert the [citation needed] tag, you can type {{Citation needed|date=March 2024}}."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "publishing_changes",
+      "patterns": [
+        "How do I publish my changes on Wikipedia?",
+        "Finalizing edits on Wikipedia",
+        "Steps to save changes on Wikipedia"
+      ],
+      "responses": [
+        "When you're ready to publish (save) your changes on Wikipedia, there are a few steps to follow:\n1. Preview your changes by clicking the Show preview button to ensure they look as you intended.\n2. Write a short edit summary in the 'Edit summary' box to explain your change briefly.\n3. If your change is minor and uncontroversial, check the '☑ This is a minor edit' box.\n4. Optionally, add the page to your Watchlist to be notified of further changes by checking the '☑ Watch this page' box.\n5. Finally, click the Publish changes button to upload your changes to Wikipedia."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creating_new_article_intro",
+      "patterns": [
+        "How do I create a new article on Wikipedia?",
+        "Creating a new page on Wikipedia",
+        "Steps to start a new article on Wikipedia"
+      ],
+      "responses": [
+        "Before creating a new article on Wikipedia, there are three important criteria to consider:\n1. Notability: Is the topic sufficiently important to be included in Wikipedia? It must have received significant coverage in reliable sources that are independent of the subject.\n2. Reliable sources: Are there reliable and verifiable sources to back up any claims? Gather a set of independent, reliable, verifiable sources to cite as references.\n3. Conflicts of interest: Do you have a conflict of interest (COI)? It's best to avoid writing articles about yourself, your company, or someone you know personally to maintain neutrality.\n\nTo create a new article, it's typically best to start as a Draft (e.g., 'Draft:Example'), allowing you to develop the article before it's moved to Wikipedia's mainspace."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "notability_criteria",
+      "patterns": [
+        "What is notability?",
+        "How do I determine if a topic is notable?",
+        "Criteria for notability on Wikipedia"
+      ],
+      "responses": [
+        "Notability refers to the importance of a topic to be included in Wikipedia. A topic is considered notable if it has received significant coverage in reliable sources that are independent of the subject, such as newspapers, magazines, scholarly journal articles, and books."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "reliable_sources_criteria",
+      "patterns": [
+        "What are reliable sources?",
+        "How do I find reliable sources for Wikipedia?",
+        "Criteria for reliable sources on Wikipedia"
+      ],
+      "responses": [
+        "Reliable sources are sources that are independent, reliable, and verifiable, backing up any claims made in an article. They include newspapers, magazines, scholarly journal articles, and books. Gathering a set of reliable sources is essential for ensuring the accuracy and trustworthiness of Wikipedia content."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conflict_of_interest_criteria",
+      "patterns": [
+        "What is a conflict of interest (COI)?",
+        "How do I know if I have a conflict of interest on Wikipedia?",
+        "Avoiding conflicts of interest on Wikipedia"
+      ],
+      "responses": [
+        "A conflict of interest (COI) arises when you have a personal interest or bias that could affect your ability to contribute neutrally to Wikipedia. It's best to avoid writing articles about yourself, your company, or someone you know personally to maintain neutrality."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creating_new_draft_article",
+      "patterns": [
+        "How do I start a new article as a Draft?",
+        "Creating a new Draft article on Wikipedia",
+        "Steps to begin a Draft article on Wikipedia"
+      ],
+      "responses": [
+        "To start a new article as a Draft on Wikipedia, you can use the Article Creation Wizard. This tool will guide you through the steps of creating a new draft article and notify experienced editors to review the article and provide feedback."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikitext_overview",
+      "patterns": [
+        "What is wikitext?",
+        "Tell me about wikitext",
+        "What is wiki markup?"
+      ],
+      "responses": [
+        "Wikitext, also known as wiki markup or wikicode, is the markup language used by the MediaWiki software to format pages on Wikipedia. It consists of syntax and keywords used to structure and style content. You can learn more about wikitext and how to use it for editing by visiting Help:Editing. Additionally, there is a short list of markup and tips available at Help:Cheatsheet."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "html_elements_in_wikitext",
+      "patterns": [
+        "Can I use HTML elements in wikitext?",
+        "Using HTML in wikitext",
+        "HTML formatting in wikitext"
+      ],
+      "responses": [
+        "In addition to wikitext, some HTML elements are also allowed for presentation formatting. You can find more information about using HTML in wikitext at Help:HTML in wikitext."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "section_headings",
+      "patterns": [
+        "What are section headings?",
+        "Tell me about section headings",
+        "How do I create section headings?"
+      ],
+      "responses": [
+        "Section headings in Wikipedia articles are created using markup symbols ranging from = to ======. These symbols represent different levels of headings, with = being the highest level and ====== being the lowest level. Each heading level corresponds to a different HTML heading element, and using these headings helps organize the content of an article. It's important to note that using a single = is reserved for the article title and should not be used within the article body."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "horizontal_rule",
+      "patterns": [
+        "What is a horizontal rule?",
+        "Tell me about horizontal rules",
+        "How do I create a horizontal rule?"
+      ],
+      "responses": [
+        "A horizontal rule in Wikipedia represents a paragraph-level thematic break. It is typically used after main sections to visually separate them. Horizontal rules are created using the markup ----. It's important to note that horizontal rules should not be used within article content, as they are used automatically after main sections."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "line_breaks",
+      "patterns": [
+        "What are line breaks?",
+        "Tell me about line breaks",
+        "How do I create line breaks?"
+      ],
+      "responses": [
+        "Line breaks or newlines are used to add whitespace between lines in Wikipedia articles, such as separating paragraphs. You can insert a visible line break by pressing the Enter key twice. It's good practice to leave additional changes to another edit to avoid highlighting only the line break in the diff. Pressing Enter once will place a line break in the markup, but it will not show in the rendered content, except when using list markup. It's important to note that markup such as bold or italics will be terminated at a line break. Blank lines within indented wikitext should not be added due to accessibility issues."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "indentation",
+      "patterns": [
+        "What is indentation?",
+        "Tell me about indentation",
+        "How do I indent text?"
+      ],
+      "responses": [
+        "Indentation is commonly used on talk pages in Wikipedia. Each colon at the start of a line causes the line to be indented by three more character positions. You can repeat the indentation at any line break, and use an extra colon for each response to further indent the text. The indentation persists as long as no carriage return or line break is used. The outdent template can be used to visually indicate the cancellation of the indent."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockquote",
+      "patterns": [
+        "What is a blockquote?",
+        "How do I use a blockquote?",
+        "Tell me about blockquotes"
+      ],
+      "responses": [
+        "A blockquote is used to separate a block of text, typically for inserting quoted and cited text. It indents both margins when needed, instead of just the left margin like the colon does. You can use the <blockquote> HTML tag or the {{quote}} template to achieve the same result."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "center_text",
+      "patterns": [
+        "How do I center text?",
+        "What's the markup for centering text?",
+        "Tell me about centering text"
+      ],
+      "responses": [
+        "To center text, you can use the <div> HTML tag with the class 'center' and set the style to 'width: auto; margin-left: auto; margin-right: auto;'. For example: <div class=\"center\" style=\"width: auto; margin-left: auto; margin-right: auto;\">Centered text</div>. Alternatively, you can use the {{center}} template which uses the same markup. Please avoid using the <center>...</center> tags as they are obsolete."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "align_text_right",
+      "patterns": [
+        "How do I align text to the right?",
+        "What's the markup for aligning text to the right?",
+        "Tell me about aligning text to the right"
+      ],
+      "responses": [
+        "To align text to the right, you can use the <div> HTML tag with the style 'text-align: right; direction: ltr; margin-left: 1em;'. For example: <div style=\"text-align: right; direction: ltr; margin-left: 1em;\">Text on the right</div>. Another option is to use the {{stack|Text on the right}} template. If you want the text to float around it, you can use the <div> with the class 'floatright'."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "unordered_lists",
+      "patterns": [
+        "How do I create an unordered list?",
+        "What's the markup for unordered lists?",
+        "Tell me about unordered lists"
+      ],
+      "responses": [
+        "To create an unordered list, you can use the '*' markup followed by the item. For example:\n\n* Item1\n* Item2\n* Item3\n* Item4\n** Sub-item 4 a)\n*** Sub-item 4 a) 1.\n**** Sub-item 4 a) 1. i)\n**** Sub-item 4 a) 1. ii)\n** Sub-item 4 b)\n* Item5"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ordered_lists",
+      "patterns": [
+        "How do I create an ordered list?",
+        "What's the markup for ordered lists?",
+        "Tell me about ordered lists"
+      ],
+      "responses": [
+        "To create an ordered list, you can use the '#' markup followed by the item. For example:\n\n# Item1\n# Item2\n# Item3\n# Item4\n## Sub-item 1\n### Sub-sub-item\n#### Sub-sub-sub-item\n## Sub-item 2\n# Item5"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "description_lists",
+      "patterns": [
+        "How do I create a description list?",
+        "What's the markup for description lists?",
+        "Tell me about description lists"
+      ],
+      "responses": [
+        "To create a description list, start a new line with a semicolon (;) followed by the term. Then, type a colon (:) followed by a definition. For example:\n\n; Term1 : Definition1\n; Term2\n: Definition1\n: Definition2\n: Definition3\n: Definition4"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "retaining_newlines_and_spaces",
+      "patterns": [
+        "How can I retain newlines and spaces?",
+        "What's the markup for retaining newlines and spaces?",
+        "Tell me about retaining newlines and spaces"
+      ],
+      "responses": [
+        "To retain newlines and spaces in MediaWiki, you can use the <poem>...</poem> tags. Here's an example:\n\n<poem>\nIn Xanadu did Kubla Khan\n  A stately pleasure-dome decree:\nWhere Alph, the sacred river, ran\n  Through caverns measureless to man\nDown to a sunless sea.\n\nSo twice five miles of fertile ground\n  With walls and towers were girdled round:\nAnd there were gardens bright with sinuous rills,\n  Where blossomed many an incense-bearing tree;\nAnd here were forests ancient as the hills,\n  Enfolding sunny spots of greenery.\n</poem>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "markup_text_formatting",
+      "patterns": [
+        "How can I italicize text?",
+        "What's the markup for bold text?",
+        "Show me an example of small capital letters in markup."
+      ],
+      "responses": [
+        "To italicize text, put two consecutive apostrophes on each side of it.\n\nFor example:\nTo ''italicize text'', put two consecutive apostrophes on each side of it.\n\nThree apostrophes each side will '''bold the text'''.\n\nFor bold italics, use five consecutive apostrophes on each side (two for italics plus three for bold) like this: '''''bold italics'''''.\n\nItalic and bold formatting works correctly only within a single line.\n\nFor text as {{smallcaps|small caps}}, use the template {{tl|smallcaps}}."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "source_code_markup",
+      "patterns": [
+        "How do I format small chunks of source code?",
+        "What's the syntax for source code highlighting?"
+      ],
+      "responses": [
+        "To format small chunks of source code within a line of normal text, use the <code> tag. For example:\n\nfunction <code>int m2()</code> is nice.\n\nFor syntax highlighting in source code, use the <syntaxhighlight> tag. For example, in C++:\n\n<syntaxhighlight lang=\"cpp\">\n#include <iostream>\nint m2 (int ax, char *p_ax) {\n  std::cout <<\"Hello World!\";\n  return 0;\n}</syntaxhighlight>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "text_formatting_special_characters",
+      "patterns": [
+        "How can I use special characters in text?",
+        "What's the syntax for diacritic marks?"
+      ],
+      "responses": [
+        "To use special characters in text, you can often use numeric character references or character entity references. For example, &Agrave; and &#xC0; both render À (A-grave).\n\nFor diacritic marks, use character entity references. For example:\n\n&Agrave; &Aacute; &Acirc; &Atilde; &Auml; &Aring; &AElig;\n\n&Ccedil; &Egrave; &Eacute; &Ecirc; &Euml;\n\n&Igrave; &Iacute; &Icirc; &Iuml; &Ntilde;\n\n&Ograve; &Oacute; &Ocirc; &Otilde; &Ouml; &Oslash; &OElig;\n\n&Ugrave; &Uacute; &Ucirc; &Uuml; &Yuml; &szlig;\n\n&agrave; &aacute; &acirc; &atilde; &auml; &aring; &aelig; &ccedil;\n\n&egrave; &eacute; &ecirc; &euml;\n\n&igrave; &iacute; &icirc; &iuml; &ntilde;\n\n&ograve; &oacute; &ocirc; &otilde; &ouml; &oslash; &oelig;\n\n&ugrave; &uacute; &ucirc; &uuml; &yuml;"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "punctuation_special_characters",
+      "patterns": [
+        "How can I use punctuation special characters in text?",
+        "What's the markup for punctuation symbols?"
+      ],
+      "responses": [
+        "To use punctuation special characters in text, you can use character entity references. For example:\n\n&iquest; &iexcl; &sect; &para; ¿ ¡ § ¶\n&dagger; &Dagger; &bull; &ndash; &mdash; † ‡ • – —\n&lsaquo; &rsaquo; &laquo; &raquo; ‹ › « »\n&lsquo; &rsquo; &ldquo; &rdquo; ‘ ’ “ ”\n&apos; &quot; ' \""
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "escaping_punctuation_characters",
+      "patterns": [
+        "How can I prevent special characters from being recognized as wiki markup?",
+        "What's the markup for commercial symbols?"
+      ],
+      "responses": [
+        "To prevent special characters from being recognized as wiki markup, you can use the <pre>, <nowiki>, and <code> markup tags. For example, to display [ and ], you can use <nowiki>[</nowiki> and <nowiki>]</nowiki>.\n\nFor commercial symbols, you can use character entity references. For example:\n\n&trade; &copy; &reg; ™ © ®\n&cent; &euro; &yen; &pound; &curren; ¢ € ¥ £ ¤"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greek_characters_markup",
+      "patterns": [
+        "How do I display Greek characters in markup?",
+        "What's the syntax for Greek characters?"
+      ],
+      "responses": [
+        "To display Greek characters in markup, you can use character entity references. For example:\n\n&alpha; &beta; &gamma; &delta; &epsilon; &zeta; α β γ δ ε ζ\n&Alpha; &Beta; &Gamma; &Delta; &Epsilon; &Zeta; Α Β Γ Δ Ε Ζ\n&eta; &theta; &iota; &kappa; &lambda; &mu; &nu; η θ ι κ λ μ ν\n&Eta; &Theta; &Iota; &Kappa; &Lambda; &Mu; &Nu; Η Θ Ι Κ Λ Μ Ν\n&xi; &omicron; &pi; &rho; &sigma; &sigmaf; ξ ο π ρ σ ς\n&Xi; &Omicron; &Pi; &Rho; &Sigma; Ξ Ο Π Ρ Σ\n&tau; &upsilon; &phi; &chi; &psi; &omega; τ υ φ χ ψ ω\n&Tau; &Upsilon; &Phi; &Chi; &Psi; &Omega; Τ Υ Φ Χ Ψ Ω"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "subscripts_superscripts_markup",
+      "patterns": [
+        "How do I format subscripts and superscripts in markup?",
+        "What's the syntax for subscripts and superscripts?"
+      ],
+      "responses": [
+        "To format subscripts and superscripts in markup, you can use the <sub> and <sup> tags. For example, x<sub>1</sub> for subscripts and x<sup>2</sup> for superscripts.\n\nFor combined formatting, such as ε<sub>0</sub> = 8.85 × 10<sup>−12</sup> C² / J m, you can use both <sub> and <sup> tags together within the same text."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mathematical_characters_markup",
+      "patterns": [
+        "How do I display mathematical characters in markup?",
+        "What's the syntax for mathematical characters?",
+        "How do I add mathematical symbols?"
+      ],
+      "responses": [
+        "To display mathematical characters in markup, you can use character entity references. For example:\n\n&int; &sum; &prod; &radic; ∫ ∑ ∏ √\n&minus; &plusmn; &infin; − ± ∞\n&asymp; &prop; &equiv; &ne; ≈ ∝ ≡ ≠\n&le; &ge; ≤ ≥\n&times; &middot; &divide; &part; × · ÷ ∂\n&prime; &Prime; ′ ″\n&nabla; &permil; &deg; &there4; &alefsym; ∇ ‰ ° ∴ ℵ\n&oslash; ø\n&isin; &notin; &cap; &cup; ∈ ∉ ∩ ∪\n&sub; &sup; &sube; &supe; ⊂ ⊃ ⊆ ⊇\n&not; &and; &or; &exist; &forall; ¬ ∧ ∨ ∃ ∀\n&rArr; &lArr; &dArr; &uArr; &hArr; ⇒ ⇐ ⇓ ⇑ ⇔\n&rarr; &larr; &darr; &uarr; &harr; → ← ↓ ↑ ↔\n\nFor mathematical formulae, you can use the <math> tag or the {{math}} template. The <math> tag typesets using LaTeX markup, while the {{math}} template uses HTML."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "spacing_in_simple_math_formulae",
+      "patterns": [
+        "How can I prevent line breaks in simple math formulae?",
+        "What's the best way to format math formulae to avoid line breaks?"
+      ],
+      "responses": [
+        "To prevent line breaks in simple math formulae, you don't need to use &nbsp; or any other special characters. The {{math}} template automatically prevents line breaks. If you need an explicit line break inside a formula, you can use <br />."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "complicated_formulae_display",
+      "patterns": [
+        "How should I display complicated formulae?",
+        "What's the recommended way to format complex formulas?"
+      ],
+      "responses": [
+        "For displaying complicated formulae, use the <math> tag. If the formula is to be displayed on a line by itself, use <math display=block>...</math> and indent it accordingly. For example:\n\n<math display=block>∑_{n=0}^∞ \\frac{x^n}{n!}</math>\n∑ n=0∞ n! x\n\nIndenting formulae using the colon (:) character is discouraged for accessibility reasons."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikilinks",
+      "patterns": [
+        "How do I create links between pages in wikitext?",
+        "What's the syntax for creating internal links in wikitext?"
+      ],
+      "responses": [
+        "To create links between pages in wikitext, use double square brackets around the text designating the title of the page you want to link to. Optionally, you can use a vertical bar (|) to customize the link title. For example, [[Texas|Lone Star State]] will produce Lone Star State, a link that is displayed as 'Lone Star State' but actually links to Texas."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "renamed_link",
+      "patterns": [
+        "How do I create a renamed link?",
+        "What's the syntax for creating a link with a different name?"
+      ],
+      "responses": [
+        "To create a renamed link, use the format [[target page|customized link text]]. The target ('piped') text must be placed first, followed by the text to be displayed. For example, New York also has [[public transport|public transportation]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blend_link",
+      "patterns": [
+        "What's the preferred way to blend endings into a link?",
+        "How do I create blended links?"
+      ],
+      "responses": [
+        "To blend endings into a link, simply include the ending within the double square brackets without separating it. For example, San Francisco also has [[public transport]]ation. Examples include [[bus]]es, [[taxicab]]s, and [[tram]]s."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "link_to_section",
+      "patterns": [
+        "How do I create a link to a specific section of a page?",
+        "What's the syntax for linking to a section within a page?"
+      ],
+      "responses": [
+        "To create a link to a specific section of a page, use double square brackets followed by a hash sign (#) and the section title. For example, [[Wikipedia:Manual of Style#Italics]] is a link to the 'Italics' section within the 'Manual of Style' page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "create_page_link",
+      "patterns": [
+        "How do I create a link to a page that doesn't exist yet?",
+        "What's the syntax for creating a link to a non-existent page?"
+      ],
+      "responses": [
+        "To create a link to a page that doesn't exist yet, simply enclose the page title within double square brackets. For example, The article about [[cardboard sandwiches]] doesn't exist yet."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "redirect",
+      "patterns": [
+        "How do I redirect one article title to another?",
+        "What's the syntax for creating redirects?"
+      ],
+      "responses": [
+        "To redirect one article title to another, place a directive like #REDIRECT [[Target page]] on the first line of the article. For example, to redirect to the 'United States' page, you would use #REDIRECT [[United States]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "link_to_other_wiki",
+      "patterns": [
+        "How do I create links to other wikis?",
+        "What's the syntax for linking to pages on other wikis?"
+      ],
+      "responses": [
+        "To create links to pages on other wikis, use the format [[Wiki:Page Title]]. For example, to link to the 'hello' page on Wiktionary, you would use [[Wiktionary:hello]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "categories",
+      "patterns": [
+        "How do I categorize an article?",
+        "Tell me about adding categories to articles."
+      ],
+      "responses": [
+        "To categorize an article, place a link like [[Category:Example]] into the article. As with interlanguage links, it's recommended to place these links at the end of the article."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "link_to_category",
+      "patterns": [
+        "How can I link to a category page without categorizing the article?",
+        "Tell me about linking to categories without adding articles to them."
+      ],
+      "responses": [
+        "To link to a category page without putting the article into the category, use a colon prefix (\":Category\") in the link. For example, [[:Category:Character sets]] will display as Category:Character sets."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "external_links",
+      "patterns": [
+        "How do I create external links?",
+        "Tell me about adding external links."
+      ],
+      "responses": [
+        "To create external links, use single-square brackets followed by the URL. Use a space (not a pipe |) to separate the URL from the link text in a named link. URLs must begin with a supported URI scheme like https:// or http://. Ensure that certain characters in the URL are percent encoded if necessary."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "media_link",
+      "patterns": [
+        "How do I include links to non-image uploads like sounds?",
+        "Tell me about adding links to non-image uploads."
+      ],
+      "responses": [
+        "To include links to non-image uploads such as sounds, use a \"media\" link. For example, [[media:Classical guitar scale.ogg|Sound]] will display as Sound."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "direct_edit_links",
+      "patterns": [
+        "How do I create links that directly go to the edit or view source tab?",
+        "Tell me about creating links for editing."
+      ],
+      "responses": [
+        "You can create links that directly go to the edit or view source tab using the {{fullurl}} template or the {{Edit}} template. For example, [{{fullurl:Help:Wiki markup|action=edit}} edit] or {{edit}}."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "image_markup",
+      "patterns": [
+        "How do I add images to an article?",
+        "Tell me about adding images."
+      ],
+      "responses": [
+        "To add images to an article, use the image markup. For example, [[File:wiki.png|thumb|Wikipedia logo]] will display the Wikipedia logo with the caption 'Wikipedia logo'. You can also specify attributes like 'left', 'right', or 'centre' to position the image on the page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "alternative_text",
+      "patterns": [
+        "What's alternative text for images?",
+        "Tell me about alternative text."
+      ],
+      "responses": [
+        "Alternative text, used when the image is unavailable or when the image is loaded in a text-only browser, or when spoken aloud, is strongly encouraged. Use the 'alt' attribute to specify alternative text for an image."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "link_to_image_description",
+      "patterns": [
+        "How do I link directly to the description page of an image?",
+        "Tell me about linking to image descriptions."
+      ],
+      "responses": [
+        "To link directly to the description page of an image, use [[:File:wiki.png]]. This will create a link to the description page of the image 'wiki.png'."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "tables",
+      "patterns": [
+        "How can I create tables?",
+        "Tell me about creating tables."
+      ],
+      "responses": [
+        "You can create tables in two ways: using specific wiki markup or using HTML elements. For specific wiki markup, refer to Help:Table. For HTML elements, use <table>, <tr>, <td>, or <th> tags."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "columns",
+      "patterns": [
+        "How do I create columns in a table?",
+        "Tell me about creating columns."
+      ],
+      "responses": [
+        "To create columns in a table, use {{colbegin}} at the beginning of the columns and {{colend}} at the end. This will produce columns in your table."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "references",
+      "patterns": [
+        "How do I create references?",
+        "Tell me about referencing sources."
+      ],
+      "responses": [
+        "To create references, use the <ref> wiki markup tags. Inside these tags, add details about the reference using templates such as {{cite book}} for books or {{cite web}} for web sources. You can include information like the title, author, publisher, date, and URL."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "citation_needed",
+      "patterns": [
+        "How do I indicate a citation is needed?",
+        "Tell me about indicating citations are needed."
+      ],
+      "responses": [
+        "To indicate that a citation is needed, use the {{Citation needed}} template. This will add a tag to the text indicating that a source is required."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "templates",
+      "patterns": [
+        "What are templates?",
+        "Tell me about transclusion and templates."
+      ],
+      "responses": [
+        "Templates are segments of wiki markup that are automatically copied into a page when specified by their name in {{double braces}}. They can include text, formatting, or even complex functionality, and are commonly used for recurring elements like infoboxes, navigation bars, or citation styles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "transclusion_markup",
+      "patterns": [
+        "How do I control transclusion?",
+        "Tell me about transclusion markup."
+      ],
+      "responses": [
+        "To control how transclusion affects parts of a template or article, you can use three pairs of tags: <noinclude>, <includeonly>, and <onlyinclude>. These tags determine whether or not wikitext renders in the current article, in the transcluded article, or both, respectively."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "parameters",
+      "patterns": [
+        "How do I use parameters in templates?",
+        "Tell me about template parameters."
+      ],
+      "responses": [
+        "Templates can take parameters, which are specified by separating them with the pipe character |. These parameters allow you to customize the behavior or appearance of the template when it's transcluded into a page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "signing_comments",
+      "patterns": [
+        "How do I sign comments on talk pages?",
+        "Tell me about signing comments."
+      ],
+      "responses": [
+        "To sign a comment on a talk page, append four tildes (~~~~) to the comment. This will automatically add your username and the date/time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "linking_revisions",
+      "patterns": [
+        "How do I link to old revisions of pages?",
+        "Tell me about linking revisions."
+      ],
+      "responses": [
+        "You can link to old revisions of pages using external links or internal diff links. For external links, copy the URL from the address bar of the old revision or diff page. For internal diff links, use [[Special:Diff/old_revision_id/new_revision_id|link text]]. Permalinks can also be used for old revisions, but images and templates may not be shown as they were at the time."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "what_links_here",
+      "patterns": [
+        "How can I see what links to a specific page?",
+        "Tell me about the 'What links here' feature."
+      ],
+      "responses": [
+        "To see what links to a specific page, you can use the 'What links here' feature. Simply use the markup [[Special:WhatLinksHere/PageName]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "recent_changes_linked",
+      "patterns": [
+        "How can I see recent changes to pages linked to a specific page?",
+        "Tell me about the 'Recent changes linked' feature."
+      ],
+      "responses": [
+        "To see recent changes to pages linked to a specific page, you can use the 'Recent changes linked' feature. Simply use the markup [[Special:RecentChangesLinked/PageName]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "limiting_formatting",
+      "patterns": [
+        "How can I limit formatting in wiki markup?",
+        "Tell me about limiting formatting in wiki markup."
+      ],
+      "responses": [
+        "You can limit formatting in wiki markup using different methods:",
+        "- The <nowiki> tag ignores wiki markup and reformats text without interpreting special characters.",
+        "- The <pre> tag also ignores wiki markup, displays text in a mono-spaced font, and preserves spaces.",
+        "- Using single square brackets to hold text without a URL preserves the formatting, while URLs within single square brackets are treated as external links.",
+        "- Leading spaces at the beginning of each line can also preserve formatting."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nowiki_markup",
+      "patterns": [
+        "What is <nowiki> in wiki markup?",
+        "Tell me about <nowiki> tag in wiki markup."
+      ],
+      "responses": [
+        "In wiki markup, the <nowiki> tag is used to display text as normal text without interpreting any wiki markup. There are two types of nowiki tags:",
+        "- `<nowiki>...</nowiki>`: Wiki markup contained between these tags is displayed as normal text.",
+        "- `<nowiki />`: Wiki markup that is interrupted by this tag is displayed as normal text.",
+        "Here are some examples of how <nowiki> can be used:",
+        "1. Ignoring markup at the beginning of a line: `<nowiki /># Ordered list` becomes # Ordered list.",
+        "2. Preserving formatting: `a<nowiki>\n\n</nowiki>b` becomes a b.",
+        "3. Escaping wikilinks and templates: `<nowiki>[[Example]]</nowiki>` becomes [[Example]].",
+        "4. Displaying behavioral switches: `{{ #ifeq: inYes | inYes | outYes | outNo }}` becomes outYes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pre_tag",
+      "patterns": [
+        "What is <pre> tag in wiki markup?",
+        "Tell me about <pre> tag in wiki markup."
+      ],
+      "responses": [
+        "The <pre> tag in wiki markup is a parser tag that emulates the HTML <pre> tag. It defines preformatted text that is displayed in a fixed-width font and is enclosed in a dashed box. Here are some characteristics of the <pre> tag:",
+        "- It escapes HTML-like and wiki markup tags.",
+        "- Spaces and line breaks are preserved.",
+        "- HTML elements are parsed.",
+        "Here's an example of how the <pre> tag can be used:",
+        "Markup:",
+        "<pre><!--Comment-->\n\n[[wiki]] markup &amp;</pre>",
+        "Renders as:",
+        "<!--Comment-->\n\n[[wiki]] markup &amp;",
+        "To prevent the <pre> tag from escaping wikitext and HTML tags, you can use <includeonly></includeonly> within the <pre>, like this:",
+        "Markup:",
+        "<pre<includeonly></includeonly><!--Comment-->\n\n[[wiki]] markup &amp;</pre>",
+        "Renders as:",
+        "wiki markup &",
+        "Invisible HTML <pre> tags can also be inserted by preceding text with a space character."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "invisible_text",
+      "patterns": [
+        "What are invisible text comments in wiki markup?",
+        "Tell me about invisible text comments in wiki markup."
+      ],
+      "responses": [
+        "Invisible text comments, also known as hidden comments, are used occasionally in wiki markup to add notes for other editors. These comments are visible only when editing or viewing the source of a page, and they are not displayed in the rendered page.",
+        "The format for creating invisible text comments is to surround the hidden text with <!-- and -->. Here's an example:",
+        "<!-- An example of hidden comments",
+        "This won't be visible except in 'edit' mode. -->",
+        "Another way to include a comment in wiki markup is by using the {{Void}} template, which can be abbreviated as {{^}}. This template generates no HTML output and is visible only to people editing the wiki source. Here's how you can use it:",
+        "{{^|A lengthy comment here}}",
+        "This template operates similarly to the comment <!-- A lengthy comment here -->. However, the main difference is that the template version can be nested, while attempting to nest HTML comments produces odd results."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "wikilinks",
+      "patterns": [
+        "What are wikilinks?",
+        "Explain how wikilinks work.",
+        "How do internal links function in Wikipedia?"
+      ],
+      "responses": [
+        "Wikilinks, also known as internal links, are links from one page to another within Wikipedia or another Wikimedia project. They help connect related topics and facilitate navigation between pages.",
+        "In wiki markup, wikilinks are enclosed in doubled square brackets, like this: [[target_page_title]].",
+        "To create a wikilink with a different label than the target page title, you can use the pipe symbol (|) followed by the desired label after the target page title. For example: [[target_page_title|link_label]]."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anchor",
+      "patterns": [
+        "What is an anchor in Wikipedia?",
+        "Explain the use of anchors on Wikipedia.",
+        "How are anchors used to link to specific sections?"
+      ],
+      "responses": [
+        "In Wikipedia, an anchor can refer to two different things. Firstly, in the context of a link from an anchor to a target, it is the starting place. Secondly, in the context of the {{anchor}} template, an anchor is a landing place for a link to jump to.",
+        "Anchors are used to link to specific sections or subsections within Wikipedia pages. They are created automatically by section titles, but can also be manually created using the {{anchor}} template or HTML code.",
+        "To link to a section in another page, append a # and the section name to the page name: [[Page name#Section name|displayed text]]. For linking in the same page, omit the page name and use a # and the section name: [[#Section name|displayed text]]. Anchors can also be used to link to any part of a section within a page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "subpage_links",
+      "patterns": [
+        "Explain subpage linking on Wikipedia.",
+        "How does linking to subpages work?",
+        "Can you provide examples of subpage links?"
+      ],
+      "responses": [
+        "Subpage linking on Wikipedia allows for linking to pages under a root parent page using specific syntax. Subpages are created in article space, but subpage linking does not fully function there. Subpage linking works as expected to link to any pages under a root parent page.",
+        "To link to subpages on Wikipedia, you can use specific syntax to navigate to pages under a root parent page. This includes using [[../]] to link to the parent page, [[../subpagename]] to link to a child subpage, and [[../../]] to link to the grandparent page.",
+        "Examples of subpage links include linking to the parent page with [[../]], linking to a child subpage with [[../subpagename]], and linking to the grandparent page with [[../../]]. These links allow for easy navigation within the hierarchy of subpages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "link_reports",
+      "patterns": [
+        "How can you report links from a page?",
+        "What methods are available to report links from a page?",
+        "Can you explain how to use the Wikipedia web API to report links from a page?"
+      ],
+      "responses": [
+        "To report links from a page, you can simply list all the wikilinks on that page. Additionally, there are tools and methods available to count and analyze links from a page.",
+        "Methods available to report links from a page include counting wikilinks directly from the wikitext, using text editors that support counting and highlighting of wikilinks, and using the Wikipedia web API to query link properties.",
+        "To use the Wikipedia web API to report links from a page, you can create an external link with specific parameters to query link properties. For example, you can use a URL with the action=query parameter to list the link properties of a specific page."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "table_creation",
+      "patterns": [
+        "How can tables be created on Wikipedia pages?",
+        "What are the methods for creating tables using wikitext syntax?",
+        "Can you explain how to create tables on Wikipedia pages?"
+      ],
+      "responses": [
+        "Tables on Wikipedia pages can be created using special wikitext syntax.",
+        "To create a table, you can use the toolbar in source mode or the visual editor (VE) to insert a table automatically.",
+        "Basic table markup consists of elements such as table start, table caption, table row, table header cell, table data cell, and table end. These elements are enclosed in curly brackets and vertical bar characters, with each element starting on a new line. Attributes can be added to modify the display and styling of cells, rows, or the entire table. Additionally, cells can be filled with content either on the same line as the cell mark or on lines below it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "table_scope",
+      "patterns": [
+        "What is the purpose of using scope in table headers on Wikipedia?",
+        "How should column and row headers be identified in data tables on Wikipedia?",
+        "Can you explain the significance of scope in table headers?"
+      ],
+      "responses": [
+        "In data tables on Wikipedia, column headers are identified by ! scope=\"col\" | instead of |, and row headers are identified by ! scope=\"row\" | instead of |.",
+        "The scope=\"col\" and scope=\"row\" markup should be used for column and row headers in all data tables because it explicitly associates the header with the corresponding cells, which helps ensure a consistent experience for screen readers.",
+        "The Manual of Style requires the use of scope for column and row headers to improve accessibility for users, particularly those using screen readers. Additionally, scope=\"colgroup\" colspan=\"2\" | or scope=\"rowgroup\" rowspan=\"2\" | can be used for headers that span two columns or rows, respectively, to clearly identify them as such."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "table_height",
+      "patterns": [
+        "What is the purpose of specifying the height of a table in Wikipedia?",
+        "How can you set the height of a row in a table on Wikipedia?",
+        "Can you explain how to use rowspan and colspan in a table?"
+      ],
+      "responses": [
+        "The height of a table can be specified to control its display size, and the height of individual rows can be adjusted using the style attribute.",
+        "To set the height of a row in a table on Wikipedia, you can use the style attribute with the height property, like style=height:7em for a row.",
+        "To create cells that span multiple columns, use |colspan=n | content, and for cells spanning multiple rows, use |rowspan=m | content in the table markup."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "table_syntax",
+      "patterns": [
+        "What is the syntax for creating tables in Wikipedia articles?",
+        "How are tables formatted using wiki syntax?",
+        "Can you explain the syntax used for tables in Wikipedia?"
+      ],
+      "responses": [
+        "Tables in Wikipedia articles can be created using a combination of wiki syntax and HTML-like elements.",
+        "For creating tables, you start with {| to open a table and close it with |}.",
+        "To begin a new row, use |-.",
+        "Headers are created using !, for example, ! Header 1.",
+        "Data cells are separated by ||, like cell1 || cell2 || cell3.",
+        "Parameters for rows and cells can be added after the |- or | symbols.",
+        "For example, |- params or |params|cell1.",
+        "Captions can be added with |+caption, with optional parameters like |+params|caption.",
+        "To use vertical column headers, enclose the text in {{vertical header|text}}.",
+        "Indenting tables can be achieved with CSS, such as style=\"margin-left:1.6em;\"."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "colbegin_colend",
+      "patterns": [
+        "How can columns be created in a Wikipedia article?",
+        "What is the syntax for creating columns using wiki syntax in Wikipedia?",
+        "Can you explain how to use {{colbegin}} and {{colend}} in Wikipedia?"
+      ],
+      "responses": [
+        "To create columns in a Wikipedia article, you can use the {{colbegin}} and {{colend}} templates.",
+        "For example, you can enclose content between {{colbegin}} and {{colend}} to create columns.",
+        "Alternatively, you can use {{col-begin}}, {{col-break}}, and {{col-end}} to create columns.",
+        "However, using {{col-begin}}, {{col-break}}, and {{col-end}} to set numbered or bulleted lists in columns may cause accessibility issues."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "footnotes_system",
+      "patterns": [
+        "How does the footnotes system work on Wikipedia?",
+        "Can you explain the process of adding footnotes to a Wikipedia article?",
+        "What is the syntax for creating footnotes in Wikipedia articles?",
+        "How can I add footnotes?"
+      ],
+      "responses": [
+        "The footnotes system on Wikipedia involves two main elements: footnote markers and footnotes.",
+        "Footnote markers appear in the article's content as bracketed, superscripted numbers, letters, or words.",
+        "Each footnote marker is linked to the full footnote, which contains the full citation or note.",
+        "Clicking on a footnote marker jumps the page down to the corresponding footnote and highlights the citation.",
+        "If using the desktop site with JavaScript enabled, hovering over a footnote marker shows a pop-up box containing the footnote.",
+        "Footnotes are displayed in an ordered list wherever the reference list markup {{reflist}} is placed.",
+        "Each entry in the footnote list begins with the footnote label in plain text, formatted in a slightly smaller font.",
+        "Successive footnote labels are automatically incremented, while custom labels are also incremented accordingly.",
+        "For single-use footnotes, the label is followed by a caret (^) that serves as a backlink to the matching footnote marker.",
+        "If a named footnote is used multiple times, the footnote has multiple backlinks shown as letters.",
+        "Clicking on a backlink or pressing Alt+← returns to the footnote marker.",
+        "To create a footnote marker, place the markup with the citation or note inside the <ref>...</ref> tags at the desired point in the page content.",
+        "The content inside the <ref>...</ref> tags will be displayed in the reference list.",
+        "Ref tags should follow any punctuation, usually a period, without any space between the punctuation and the tag.",
+        "If there is no content inside the tags, an error will occur."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "formatting_ref_tags",
+      "patterns": [
+        "How can the content of ref tags be formatted on Wikipedia?",
+        "What markup or HTML markup can be used inside ref tags?",
+        "Can you provide examples of formatting content inside ref tags?"
+      ],
+      "responses": [
+        "The content of ref tags in Wikipedia articles can be formatted using most wiki markup or HTML markup.",
+        "Techniques such as the pipe trick and template substitution will not work inside footnotes.",
+        "Examples of formatting content inside ref tags include using italic text, bold text, links, and other markup.",
+        "URLs can be included in ref tags, but they must begin with a supported URI scheme such as http:// or https://.",
+        "IPv6 host-names are currently not supported in URLs.",
+        "Certain characters in URLs need to be percent-encoded to display and link correctly.",
+        "For example, spaces must be replaced by %20 in URLs.",
+        "The ref tag content can also contain internal or external links.",
+        "The content inside ref tags should follow any punctuation and there should be no space between the punctuation and the tag.",
+        "When editing, <references /> may be used instead of {{reflist}}, but it does not offer the advanced features of {{reflist}}."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "reference_lists_columns",
+      "patterns": [
+        "How can reference lists be split into columns on Wikipedia?",
+        "What is the syntax for splitting reference lists into columns?",
+        "Can you provide examples of splitting reference lists into columns?"
+      ],
+      "responses": [
+        "Reference lists on Wikipedia can be split into columns using the <references /> or {{reflist}} tags.",
+        "The <references /> tag provides a default column width of 30 em, while {{reflist}} can be used to set a specific column width.",
+        "To set a custom column width with {{reflist}}, use the syntax {{reflist|xxem}}, where xx is the desired column width in em.",
+        "The number of columns will automatically adjust to the width of the display.",
+        "Here are some common practices for setting column widths:",
+        "- {{Reflist|30em}}: Suitable for pages with many footnotes and a wide Bibliography subsection.",
+        "- {{Reflist|20em}}: Suitable for pages with shortened footnotes.",
+        "For example, using {{Reflist|30em}} will create columns with a minimum width of 30 em."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "inline_citations",
+      "patterns": [
+        "What are inline citations on Wikipedia?",
+        "Can you explain how inline citations work on Wikipedia?",
+        "How are inline citations used on Wikipedia?"
+      ],
+      "responses": [
+        "Inline citations on Wikipedia are citations within a page's text that allow readers to associate specific material with reliable sources.",
+        "The most common method for inline citations on Wikipedia is using numbered footnotes within the text.",
+        "Other forms of inline citations are also used occasionally, including hyperlinking/embedded links and manual citations.",
+        "Inline citations are often placed at the end of a sentence or paragraph, referring to various types of sources such as books, magazines, encyclopedias, and Internet pages.",
+        "Inline citations are required for featured articles, good articles, and A-class articles on Wikipedia.",
+        "There are different methods for adding inline citations, including the use of <ref> tags, reference templates, and in-text attribution.",
+        "Each article should use only one type of inline citation method, as per Wikipedia's citation style guidelines.",
+        "The purpose of inline citations is to provide verifiable source citations, rendering the information in an article credible to researchers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "style_guidelines",
+      "patterns": [
+        "What are the style guidelines on Wikipedia?",
+        "Can you explain the purpose of style guidelines on Wikipedia?",
+        "How do style guidelines help make Wikipedia easier to use?"
+      ],
+      "responses": [
+        "The Wikipedia community has developed style guidelines to standardize the appearance of articles and facts.",
+        "Style guidelines make Wikipedia easier to use as a whole by providing a consistent format for articles.",
+        "These guidelines help ensure that articles are presented in a standardized form, making it easier for readers to navigate and understand the content.",
+        "A basic list of wikitext can be found on the cheatsheet, and an 'edit toolbar' is provided for logged-in users to automatically place and format various aspects of wiki code.",
+        "Editors are encouraged to write a short edit summary to describe their changes before publishing them.",
+        "The 'minor edit' checkbox indicates that only superficial differences exist between the edited version and the previous version, such as typo/grammar corrections or fixing formatting problems.",
+        "Marking a change as minor signifies that the editor believes the edit requires no review and could never be the subject of a dispute.",
+        "The 'minor edit' option is available only to registered users and is not required for all edits."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "citation_guidelines",
+      "patterns": [
+        "What are the guidelines for citations on Wikipedia?",
+        "Can you explain the different citation methods used on Wikipedia?",
+        "How are inline citations used to support information on Wikipedia?"
+      ],
+      "responses": [
+        "Wikipedia has established guidelines for citations to ensure verifiability and reliability of information.",
+        "Different citation methods include links to sister projects, manual citations, legal citations, parenthetical referencing, and in-text attribution.",
+        "Inline citations are used to support information on Wikipedia by providing references for direct quotations, challenged statements, contentious material, and information about living persons.",
+        "Citation density on Wikipedia varies based on the content and does not follow a strict rule such as one citation per sentence or paragraph.",
+        "While some articles may require inline citations after nearly every sentence, others may not require any inline citations at all.",
+        "Ultimately, the goal is to maintain text-source integrity, ensuring that information is supported by reliable sources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "major_edit_guidelines",
+      "patterns": [
+        "What are the guidelines for making major edits on Wikipedia?",
+        "How should I approach major edits to Wikipedia articles?",
+        "What steps should I take before making major edits to a Wikipedia article?"
+      ],
+      "responses": [
+        "Wikipedia encourages editors to be bold when improving articles, but major edits should be approached with caution.",
+        "Before engaging in a major edit, consider discussing proposed changes on the article's discussion/talk page.",
+        "During a major edit, consider using the {{in use}} tag to reduce the likelihood of an edit conflict if the edit will take an extended period.",
+        "Include an edit summary to document the changes made during the edit process.",
+        "After completing a major edit, it's important to review the changes to ensure they are well received by the Wikipedia community.",
+        "Any change that affects the meaning of an article is considered major, even if it's a single word.",
+        "While there are no necessary terms to agree to when making major edits, following best practices can help avoid re-edits and ensure smoother editing processes.",
+        "For particularly large or complex changes, consider copying the article to your sandbox to work on it without interruptions from other editors.",
+        "Publish changes frequently to prevent loss of work due to browser crashes or electrical failures."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "adding_references",
+      "patterns": [
+        "How do I add references to a Wikipedia article?",
+        "What is the process for citing sources on Wikipedia?",
+        "Can you explain how to include references in Wikipedia articles?"
+      ],
+      "responses": [
+        "To add references to a Wikipedia article, place them directly after the facts they support at the end of the sentence and after any punctuation.",
+        "Wikipedia permits the use of any citation system that allows readers to understand the source of information, but strongly encourages the use of inline citations.",
+        "Common methods of placing inline citations include footnotes, shortened footnotes, and parenthetical references.",
+        "Inline citations are typically placed by inserting a reference between <ref>...</ref> tags directly in the text of an article.",
+        "References appear as inline links (e.g., [1][2]) to a specific item in a collated, numbered list of footnotes, usually found in a section titled 'References' or 'Notes'.",
+        "When adding references to a page without any previously, remember to include a references section with the appropriate display markup.",
+        "There are various tools available to assist with citation placement and formatting, including internal tools like RefToolbar and external sites like Citer.",
+        "RefToolbar is a JavaScript toolbar displayed above the edit box that provides the ability to fill out citation templates and insert them in the text.",
+        "Citer is an example of an external tool that converts digital object identifiers (DOIs) or Google Books URLs into filled-out citation templates ready to be pasted into an article.",
+        "For more citation tools, refer to Help:Citation tools."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "adding_media_files",
+      "patterns": [
+        "How do I add images, sounds, and videos to Wikipedia?",
+        "Can you explain the process for including media files in Wikipedia articles?",
+        "I want to add images to a Wikipedia article. How can I do that?"
+      ],
+      "responses": [
+        "To add images, sounds, and videos to Wikipedia, you can use the basic code [[File:FILENAME|thumb|DESCRIPTION]].",
+        "Both 'Image:' and 'File:' can be used interchangeably with no change in effect; the choice between the two is purely a matter of editorial preference.",
+        "Using 'thumb' generates a thumbnail of an image, which is typically sized differently from the original image.",
+        "You can submit media files using the Wikimedia Commons' File Upload Wizard or Wikipedia's File Upload Wizard.",
+        "Before starting a new article, ensure that the topic meets Wikipedia's notability requirements, which require coverage in reliable sources.",
+        "An Article Wizard is available to help you construct better articles, though it's not required.",
+        "Talk pages provide a space for editors to discuss improvements to the content of an article. It's important to follow civility and assume good faith when engaging in discussions.",
+        "Sign your contributions to a Talk page by using four tildes (~~~~), which produces your username and a time/date stamp.",
+        "Some pages on Wikipedia are protected from editing. You can still edit these pages indirectly by submitting an edit request.",
+        "Policies, guidelines, and formatting norms are developed by the community to describe best practices and clarify principles. Make sure your contributions are relevant to Wikipedia's specific purpose and adhere to its licensing requirements."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to the Wikipedia editing support chatbot. How can I assist you today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Assistance",
+        "Guidance",
+        "Support",
+        "I need help",
+        "Can you help me?"
+      ],
+      "responses": [
+        "Of course! I'm here to assist you. What do you need help with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "real-time_support",
+      "patterns": [
+        "Real-time support",
+        "Live assistance",
+        "Immediate help",
+        "Dynamic assistance"
+      ],
+      "responses": [
+        "Yes, I provide real-time support to new editors. Feel free to ask me any questions while you're editing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "Languages",
+        "Multiple languages",
+        "Language support"
+      ],
+      "responses": [
+        "I can provide assistance in multiple languages. What language would you prefer?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Don't hesitate to return if you need further assistance."
+      ],
+      "context_set": ""
+    }
+  ]
+}
