@@ -79,3 +79,6 @@ Train chatbot to remember past interactions for relevant future responses.  Use
 ## **Presentation:**
 
 [Link to the presentation](https://www.canva.com/design/DAF-_PqnNJI/Dr-EUQCYtOp65mK2Uvogpg/view)
+
+## **References:**
+Mathur, Taneesha (2023-03-21). ["Text Similarity in NLP"](https://www.scaler.com/topics/nlp/text-similarity-nlp/). Scaler Topics. Retrieved 2024-03-09.
